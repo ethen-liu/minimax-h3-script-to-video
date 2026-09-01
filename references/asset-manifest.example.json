@@ -1,0 +1,41 @@
+{
+  "characters": [
+    {
+      "id": "character-01",
+      "name": "Example character",
+      "subject_id": "Subject 1",
+      "sheet_aspect": "3:4",
+      "path": "assets/characters/character-01/sheet.png",
+      "audio_path": "assets/characters/character-01/voice.wav",
+      "panels": [
+        "top_left_close_front",
+        "top_right_close_half_side",
+        "bottom_left_full_front_no_face",
+        "bottom_right_full_back_no_face"
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "id": "scene-01",
+      "path": "assets/scenes/scene-01.png"
+    }
+  ],
+  "props": [
+    {
+      "id": "prop-01",
+      "scene_ids": ["scene-01"],
+      "path": "assets/props/prop-01.png"
+    }
+  ],
+  "optional_assets": [],
+  "segments": [
+    {
+      "id": "S01",
+      "duration_seconds": 15,
+      "prompt_file": "prompts/S01_ref2va.txt",
+      "reference_images": ["scene-01.png"],
+      "reference_audios": ["character-01-voice.wav"]
+    }
+  ]
+}
