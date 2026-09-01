@@ -1,0 +1,4 @@
+interface:
+  display_name: "minimax-H3-剧本一键生成视频"
+  short_description: "分阶段分析剧本与资产，审核后用本地 H3 生成视频"
+  default_prompt: "Use $minimax-h3-script-to-video to analyze a script, prepare reviewed assets, and generate local H3 video segments."
