@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+*.key
+*.pem
+*.secret
+assets/generated/
+video/generated/
+audits/generated/
